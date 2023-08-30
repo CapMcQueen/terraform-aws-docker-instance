@@ -13,6 +13,6 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<CapMcQueen>/docker-instance/aws"
+    source = "CapMcQueen/docker-instance/aws"
     key_name = "clarusway"
 }
